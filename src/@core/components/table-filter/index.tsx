@@ -279,28 +279,30 @@ const TableFilter = (props: TableFilterProps) => {
           )}
 
           <Box>
-            <Button
-              sx={{
-                px: ".75rem",
-                width: "auto",
-                background: `${theme.palette.grey[900]}`,
-                "& svg": { mr: 2 },
-                borderRadius: "12px",
-                mr: 2,
-              }}
-              type="submit"
-              onClick={() => handleCreateFunction("quick-search")}
-            >
-              <Typography
-                variant={"overline"}
+            {searchFeild && (
+              <Button
                 sx={{
-                  fontWeight: "500",
-                  color: theme.palette.grey[600],
+                  px: ".75rem",
+                  width: "auto",
+                  background: `${theme.palette.grey[900]}`,
+                  "& svg": { mr: 2 },
+                  borderRadius: "12px",
+                  mr: 2,
                 }}
+                type="submit"
+                onClick={() => handleCreateFunction("quick-search")}
               >
-                {"Quick Search"}
-              </Typography>
-            </Button>
+                <Typography
+                  variant={"overline"}
+                  sx={{
+                    fontWeight: "500",
+                    color: theme.palette.grey[600],
+                  }}
+                >
+                  {"Quick Search"}
+                </Typography>
+              </Button>
+            )}
             {searchFeild && (
               <TextField
                 size="small"
