@@ -1,0 +1,36 @@
+// Dark Mode Styles
+.dark-layout {
+  // dialog styles
+  .MuiDialogTitle-root {
+    border-bottom: 1px solid #ebe9f1;
+  }
+  // select input value
+  .css-1dimb5e-singleValue,
+  .Mui-selected .MuiListItemText-root .MuiTypography-root {
+    color: #bdbdbd;
+  }
+
+  .formControl-select-border .MuiInputBase-root {
+    border: 1px solid #ebe9f1 !important;
+  }
+}
+
+.Mui-selected .MuiListItemText-root .MuiTypography-root {
+  color: #ebe9f1 !important;
+}
+
+.CustomDatePick {
+  position: relative !important;
+  .react-datepicker__tab-loop {
+    position: absolute !important;
+    .react-datepicker-popper {
+      // position: unset !important;
+      position: absolute !important;
+    }
+  }
+}
+
+.start_date .css-gqoj5f-MuiInputBase-input-MuiOutlinedInput-input {
+  color: rgba(57, 57, 57, 1) !important;
+  font-size: 16px !important;
+}
