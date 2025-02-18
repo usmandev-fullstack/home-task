@@ -1,0 +1,151 @@
+.chooseFile {
+  color: #64748b;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  width: 14em;
+  min-height: 45px;
+  display: flex;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 6px;
+
+  @media only screen and (max-width: 949px) {
+    font-size: 10px;
+  }
+
+  @media only screen and (max-width: 460px) {
+    font-size: 9px;
+    line-height: 12px;
+  }
+}
+
+.maxWidth {
+
+  min-width: 23em;
+  @media only screen and (max-width: 949px) {
+    font-size: 10px;
+    max-width: 12em;
+  }
+
+  @media only screen and (max-width: 460px) {
+    font-size: 9px;
+    max-width: 12em;
+  }
+}
+
+
+.choosenFileText {
+  color: #64748b;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  width: 14em;
+  min-height: 45px;
+  display: flex;
+  justify-content: left;
+  align-content: center;
+  padding-left: 2em;
+  @media only screen and (max-width: 767px) {
+    padding-left: 16px;
+    .innertextTop{
+      width: 100% !important;
+    }
+    .chooseInnerText{
+      justify-content: flex-start !important;
+      & > div{
+        width: 80%;
+        .logohead{
+          min-width: 100% !important;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+  }
+}
+
+.bottomProgressMB {
+  color: #c8c8c8;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.logohead {
+  color: #64748b;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.inputfields {
+  display: flex;
+  padding: 0px 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  border: 1px solid grey;
+  height: 45px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  margin-top: 10px;
+}
+
+.fieldFont {
+  color: rgba(0, 0, 0, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+
+.fileNameCover {
+  text-align: left;
+  padding-left: 0;
+  margin-left: 0;
+  margin-bottom: 3px;
+  line-height: 1.2;
+}
+
+.positionIconButton {
+  z-index: 100;
+  right: 1em;
+  top: 1.4em;
+  @media only screen and (max-width: 767px) {
+    left: 68% !important;
+  }
+}
+
+.iconSize {
+  font-size: 17px;
+  color: rgb(87, 88, 91);
+}
+
+.textLeft {
+  text-align: left;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.textRight {
+  text-align: right;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.choosefileCover {
+  min-height: 45px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
